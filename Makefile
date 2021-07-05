@@ -1,3 +1,5 @@
+c?=commit
+
 install:
 		npm ci
 
@@ -6,3 +8,11 @@ brain-games:
 
 publish:
 		npm publish --dry-run
+
+lint:
+		npx eslint .
+
+git:
+		git add -A
+		git commit -m "$(c)"
+		git push
