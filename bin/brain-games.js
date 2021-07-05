@@ -1,2 +1,6 @@
 #!/usr/bin/env node
-console.log('Welcome to the Brain Games!')
+import readLine from '../src/cli.js';
+
+
+readLine();
+
