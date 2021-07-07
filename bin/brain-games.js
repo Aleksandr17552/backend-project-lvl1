@@ -1,4 +1,10 @@
 #!/usr/bin/env node
-import readLine from '../src/cli.js';
+import Games from '../src/cli.js';
 
-readLine();
+const showMessage = (message) => {
+  console.log(message);
+};
+
+showMessage('Welcome to the Brain Games!');
+Games.setName(Games.askQuestion('May I have your name?'));
+showMessage(`Hello, ${Games.getName()}!`);
