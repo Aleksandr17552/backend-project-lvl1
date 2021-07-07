@@ -1,10 +1,11 @@
 import readlineSync from 'readline-sync';
 
-class Games {
+class Even {
   constructor() {
     this.name = '';
     this.answer = '';
     this.number = null;
+    this.count = 0;
   }
 
   setName(name) {
@@ -14,6 +15,15 @@ class Games {
 
   getName() {
     return this.name;
+  }
+
+  incrementCount() {
+    this.count += 1;
+    return this.count;
+  }
+
+  getCount() {
+    return this.count;
   }
 
   generateNunber() {
@@ -47,4 +57,4 @@ class Games {
   }
 }
 
-export default new Games();
+export default new Even();
