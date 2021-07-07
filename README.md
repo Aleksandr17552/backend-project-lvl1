@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-<!-- [![Actions Status](https://github.com/Aleksandr17552/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Aleksandr17552/backend-project-lvl1/actions) -->
+[![Actions Status](https://github.com/Aleksandr17552/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Aleksandr17552/backend-project-lvl1/actions)
 
 [![Node CI](https://github.com/Aleksandr17552/backend-project-lvl1/actions/workflows/github-actions/badge.svg)](https://github.com/Aleksandr17552/backend-project-lvl1/actions)
 
