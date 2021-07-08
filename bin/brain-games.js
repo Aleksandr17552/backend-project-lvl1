@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import welcome from '../games/main.js';
+import welcome from '../games/welcome.js';
 
 welcome();

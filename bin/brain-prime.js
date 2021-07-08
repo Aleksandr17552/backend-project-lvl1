@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-import prime from '../games/prime.js';
+import games from '../games/games.js';
+import prime from '../src/prime.js';
 
-prime();
+const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+games(prime, task);

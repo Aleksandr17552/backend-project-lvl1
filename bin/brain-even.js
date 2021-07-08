@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-import even from '../games/even.js';
+import games from '../games/games.js';
+import even from '../src/even.js';
 
-even();
+const task = 'Answer "yes" if the number is even, otherwise answer "no".';
+games(even, task);
