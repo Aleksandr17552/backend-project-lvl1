@@ -63,8 +63,16 @@ class Prime {
   }
 
   correctExpression() {
-    const prime = [7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919];
-    const exists = prime.includes(this.expression) ? 'yes' : 'no';
+    const isPrime = (n) => {
+      const k = Math.sqrt(n);
+      for (let i = 2; i <= k; i += 1) {
+        if (n % i === 0) {
+          return false;
+        }
+      }
+      return true;
+    };
+    const exists = isPrime(this.expression) ? 'yes' : 'no';
     return exists;
   }
 }
