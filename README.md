@@ -10,3 +10,4 @@ Demonstration of the game Even https://asciinema.org/a/YlJEqlqt3kWE9gXsrulitzDV6
 Demonstration of the game Calc https://asciinema.org/a/eYQITLArXtwVQsPj8qDBHtfab \n
 Demonstration of the game Gcd https://asciinema.org/a/UBITNDIG9b29K3J8ifqieF15P \n
 Demonstration of the game Progression https://asciinema.org/a/gttjuaquhyExgBUO78I7jakNf \n
+Demonstration of the game Prime https://asciinema.org/a/c3I7e60Lxs8SCcESGYJR8H3Mx \n
