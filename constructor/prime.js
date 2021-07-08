@@ -57,10 +57,15 @@ class Prime {
   }
 
   checkExpression() {
+    const prime = this.correctExpression();
+    const correct = this.answer === prime;
+    return correct;
+  }
+
+  correctExpression() {
     const prime = [7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919];
     const exists = prime.includes(this.expression) ? 'yes' : 'no';
-    const correct = this.answer === exists;
-    return correct;
+    return exists;
   }
 }
 

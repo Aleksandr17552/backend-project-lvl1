@@ -22,7 +22,7 @@ export default () => {
       showMessage('Correct!');
       Prime.incrementCount();
     } else {
-      showMessage(`'${Prime.getAnswer()}' is wrong answer ;(.`);
+      showMessage(`'${Prime.getAnswer()}' is wrong answer ;(. Correct answer was '${Prime.correctExpression()}'.`);
       break;
     }
   }
