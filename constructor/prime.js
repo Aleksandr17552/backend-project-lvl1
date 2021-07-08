@@ -28,8 +28,17 @@ class Prime {
   }
 
   generateExpression() {
+    const prime = [7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919];
+    const primeNum = prime[Math.floor(Math.random() * prime.length)];
+
     const number = parseInt(Math.random() * 1000, 10);
-    this.expression = number;
+
+    if (parseInt(Math.random() * 1000, 10) % 2) {
+      this.expression = primeNum;
+    } else {
+      this.expression = number;
+    }
+
     return this.expression;
   }
 
