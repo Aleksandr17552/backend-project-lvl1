@@ -1,6 +1,7 @@
 import Even from '../constructor/even.js';
 
 export default () => {
+  const numberGames = 3;
   const showMessage = (message) => console.log(message);
 
   showMessage('Welcome to the Brain Games!');
@@ -15,7 +16,7 @@ export default () => {
     Even.askQuestion('Your answer:');
   };
 
-  while (Even.getCount() < 3) {
+  while (Even.getCount() < numberGames) {
     question();
     if (Even.checkAnswer()) {
       showMessage('Correct!');
@@ -26,7 +27,7 @@ export default () => {
     }
   }
 
-  if (Even.getCount() === 3) {
+  if (Even.getCount() === numberGames) {
     showMessage(`Congratulations, ${Even.getName()}!`);
   } else {
     showMessage(`Let's try again, ${Even.getName()}!`);

@@ -1,6 +1,7 @@
 import Calc from '../constructor/calc.js';
 
 export default () => {
+  const numberGames = 3;
   const showMessage = (message) => console.log(message);
 
   showMessage('Welcome to the Brain Games!');
@@ -15,7 +16,7 @@ export default () => {
     Calc.askQuestion('Your answer:');
   };
 
-  while (Calc.getCount() < 3) {
+  while (Calc.getCount() < numberGames) {
     question();
     if (Calc.checkExpression()) {
       showMessage('Correct!');
@@ -26,7 +27,7 @@ export default () => {
     }
   }
 
-  if (Calc.getCount() === 3) {
+  if (Calc.getCount() === numberGames) {
     showMessage(`Congratulations, ${Calc.getName()}!`);
   } else {
     showMessage(`Let's try again, ${Calc.getName()}!`);
