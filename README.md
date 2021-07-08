@@ -6,8 +6,8 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 
-Demonstration of the game Even https://asciinema.org/a/YlJEqlqt3kWE9gXsrulitzDV6 \n
-Demonstration of the game Calc https://asciinema.org/a/eYQITLArXtwVQsPj8qDBHtfab \n
-Demonstration of the game Gcd https://asciinema.org/a/UBITNDIG9b29K3J8ifqieF15P \n
-Demonstration of the game Progression https://asciinema.org/a/gttjuaquhyExgBUO78I7jakNf \n
-Demonstration of the game Prime https://asciinema.org/a/c3I7e60Lxs8SCcESGYJR8H3Mx \n
+Demonstration of the game Even https://asciinema.org/a/YlJEqlqt3kWE9gXsrulitzDV6 <br>
+Demonstration of the game Calc https://asciinema.org/a/eYQITLArXtwVQsPj8qDBHtfab <br>
+Demonstration of the game Gcd https://asciinema.org/a/UBITNDIG9b29K3J8ifqieF15P <br>
+Demonstration of the game Progression https://asciinema.org/a/gttjuaquhyExgBUO78I7jakNf <br>
+Demonstration of the game Prime https://asciinema.org/a/c3I7e60Lxs8SCcESGYJR8H3Mx <br>
